@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.9f1-x86_64\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
+D:/zepeto/zepeto-studio-unity-3.2.4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62949
-Successfully changed project path to: C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
-C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
+57408
+Successfully changed project path to: D:/zepeto/zepeto-studio-unity-3.2.4
+D:/zepeto/zepeto-studio-unity-3.2.4
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 14.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 15.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4/Assets
+[Subsystems] Discovering subsystems at path D:/zepeto/zepeto-studio-unity-3.2.4/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,53 +35,101 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001241 seconds.
+Registered in 0.001251 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 13.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 13.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  1.237 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002089 seconds.
+Registered in 0.001234 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 12.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 12.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.902 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 893 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.8 MB.
+Unloading 894 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
 System memory in use after: 56.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1401.
-Total: 1.869900 ms (FindLiveObjects: 0.104400 ms CreateObjectMapping: 0.022200 ms MarkObjects: 1.687200 ms  DeleteObjects: 0.055500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1402.
+Total: 1.632300 ms (FindLiveObjects: 0.088300 ms CreateObjectMapping: 0.021900 ms MarkObjects: 1.472400 ms  DeleteObjects: 0.049000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Playground.unity
-  artifactKey: Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playground.unity using Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fffff2b28672711fcf209de21db707') in 0.007504 seconds
-  Import took 0.008604 seconds .
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e017c0eba2eda92997025a0c81dc9d49') in 0.014221 seconds
+  Import took 0.015266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1835.860408 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c811f95aedb6f073b0149f3a4875574') in 0.000867 seconds
+  Import took 0.002392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 707.408189 seconds.
+  path: Assets/LitJSON.dll
+  artifactKey: Guid(edf75bfb68915384c8670aae0fec602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LitJSON.dll using Guid(edf75bfb68915384c8670aae0fec602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbde5bcf509e2393162c065f4c55351') in 0.003013 seconds
+  Import took 0.004297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036484 seconds.
+  path: Assets/LitJSON.dll
+  artifactKey: Guid(edf75bfb68915384c8670aae0fec602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LitJSON.dll using Guid(edf75bfb68915384c8670aae0fec602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbde5bcf509e2393162c065f4c55351') in 0.000744 seconds
+  Import took 0.001939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.662747 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(db673fd29c5d93d4ca55c131361249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(db673fd29c5d93d4ca55c131361249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9863e2194b22371c2c52656c47e31afd') in 0.000669 seconds
+  Import took 0.001717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002308 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(db673fd29c5d93d4ca55c131361249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(db673fd29c5d93d4ca55c131361249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9863e2194b22371c2c52656c47e31afd') in 0.000665 seconds
+  Import took 0.001528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.692540 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064281de1703087dca93e73b3cfaca6') in 0.000765 seconds
+  Import took 0.001968 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001953 seconds.
+Registered in 0.001294 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -91,21 +139,21 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.512 seconds
+- Completed reload, in  0.522 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.3 MB.
-System memory in use after: 55.4 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1404.
-Total: 1.310500 ms (FindLiveObjects: 0.100200 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.173700 ms  DeleteObjects: 0.013700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1405.
+Total: 1.275000 ms (FindLiveObjects: 0.083000 ms CreateObjectMapping: 0.021500 ms MarkObjects: 1.156700 ms  DeleteObjects: 0.013200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002155 seconds.
+Registered in 0.001404 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -115,21 +163,93 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
+- Completed reload, in  0.506 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.3 MB.
-System memory in use after: 55.4 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1407.
-Total: 1.253400 ms (FindLiveObjects: 0.097700 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.116700 ms  DeleteObjects: 0.013100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1408.
+Total: 1.309300 ms (FindLiveObjects: 0.097500 ms CreateObjectMapping: 0.021300 ms MarkObjects: 1.175800 ms  DeleteObjects: 0.013900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002034 seconds.
+Registered in 0.001303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.502 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1411.
+Total: 1.339500 ms (FindLiveObjects: 0.089100 ms CreateObjectMapping: 0.021700 ms MarkObjects: 1.216900 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.498 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1414.
+Total: 1.323000 ms (FindLiveObjects: 0.087200 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.200100 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1417.
+Total: 1.481100 ms (FindLiveObjects: 0.095100 ms CreateObjectMapping: 0.021700 ms MarkObjects: 1.347600 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001247 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -141,67 +261,19 @@ NullReferenceException: Object reference not set to an instance of an object
 Mono: successfully reloaded assembly
 - Completed reload, in  0.511 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.3 MB.
-System memory in use after: 55.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1410.
-Total: 1.320400 ms (FindLiveObjects: 0.091100 ms CreateObjectMapping: 0.026100 ms MarkObjects: 1.187800 ms  DeleteObjects: 0.014900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001910 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1413.
-Total: 1.393700 ms (FindLiveObjects: 0.098100 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.259700 ms  DeleteObjects: 0.010400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001927 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.497 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.3 MB.
-System memory in use after: 55.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1416.
-Total: 1.385600 ms (FindLiveObjects: 0.094400 ms CreateObjectMapping: 0.024400 ms MarkObjects: 1.255000 ms  DeleteObjects: 0.011200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1420.
+Total: 1.333300 ms (FindLiveObjects: 0.081700 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.218000 ms  DeleteObjects: 0.011200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001876 seconds.
+Registered in 0.001313 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -213,19 +285,19 @@ NullReferenceException: Object reference not set to an instance of an object
 Mono: successfully reloaded assembly
 - Completed reload, in  0.500 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1419.
-Total: 1.356200 ms (FindLiveObjects: 0.083600 ms CreateObjectMapping: 0.021900 ms MarkObjects: 1.236000 ms  DeleteObjects: 0.014200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1423.
+Total: 1.354500 ms (FindLiveObjects: 0.083600 ms CreateObjectMapping: 0.022000 ms MarkObjects: 1.234700 ms  DeleteObjects: 0.013700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001894 seconds.
+Registered in 0.001279 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -235,93 +307,21 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.504 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1422.
-Total: 1.422300 ms (FindLiveObjects: 0.094500 ms CreateObjectMapping: 0.023200 ms MarkObjects: 1.289900 ms  DeleteObjects: 0.014300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4410.178966 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003782 seconds
-  Import took 0.005390 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001847 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.530 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1426.
-Total: 1.284500 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.023300 ms MarkObjects: 1.145600 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.729236 seconds.
-  path: Assets/TransformToJson.cs
-  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TransformToJson.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c10f4648a7505d635c7890041bf620f') in 0.017959 seconds
-  Import took 0.019242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.552721 seconds.
-  path: Assets/TransformToJSON.cs
-  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547fca943f6f803add943b5da08eb823') in 0.001896 seconds
-  Import took 0.003214 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001843 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.519 seconds
+- Completed reload, in  0.513 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1429.
-Total: 1.319700 ms (FindLiveObjects: 0.102900 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.183300 ms  DeleteObjects: 0.010500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1426.
+Total: 1.372000 ms (FindLiveObjects: 0.088600 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.245700 ms  DeleteObjects: 0.015800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001893 seconds.
+Registered in 0.001293 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -331,29 +331,77 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.501 seconds
+- Completed reload, in  0.509 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1432.
-Total: 1.298800 ms (FindLiveObjects: 0.110900 ms CreateObjectMapping: 0.023100 ms MarkObjects: 1.152600 ms  DeleteObjects: 0.011500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1429.
+Total: 1.391000 ms (FindLiveObjects: 0.088600 ms CreateObjectMapping: 0.021400 ms MarkObjects: 1.269500 ms  DeleteObjects: 0.010800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 208.820299 seconds.
+  Time since last request: 778.060833 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(6a8c40d17ef1fd14095619a0440121c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(6a8c40d17ef1fd14095619a0440121c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a008fafe39cd76d477ae509f3cb933cf') in 0.002493 seconds
+  Import took 0.003861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.461857 seconds.
   path: Assets/TransformToJSON.cs
   artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeb531ac0d611895daa5a03eebfbd2d') in 0.002655 seconds
-  Import took 0.003560 seconds .
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb242f943fc52911336372955dd3ed62') in 0.000711 seconds
+  Import took 0.001883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001337 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb242f943fc52911336372955dd3ed62') in 0.000659 seconds
+  Import took 0.001505 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002031 seconds.
+Registered in 0.001335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1432.
+Total: 1.474900 ms (FindLiveObjects: 0.101300 ms CreateObjectMapping: 0.024400 ms MarkObjects: 1.336600 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.283400 seconds.
+  path: Assets/Editor/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b684cf3cc2dc7761e7dab20254de309') in 0.002332 seconds
+  Import took 0.003582 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001415 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -363,29 +411,45 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.499 seconds
+- Completed reload, in  0.521 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1435.
-Total: 1.344700 ms (FindLiveObjects: 0.100000 ms CreateObjectMapping: 0.022600 ms MarkObjects: 1.208900 ms  DeleteObjects: 0.012600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2349.381604 seconds.
-  path: Packages/zepeto.studio/Deformations
-  artifactKey: Guid(6b17abeee152b41678d48e0ed4670dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/zepeto.studio/Deformations using Guid(6b17abeee152b41678d48e0ed4670dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53989bcbf5cee0c158f5e4a878486806') in 0.003331 seconds
-  Import took 0.004591 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1435.
+Total: 1.258700 ms (FindLiveObjects: 0.091900 ms CreateObjectMapping: 0.022200 ms MarkObjects: 1.133500 ms  DeleteObjects: 0.010500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001998 seconds.
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1438.
+Total: 1.514800 ms (FindLiveObjects: 0.099900 ms CreateObjectMapping: 0.026000 ms MarkObjects: 1.369000 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002333 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -399,17 +463,465 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1438.
-Total: 1.532600 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.374200 ms  DeleteObjects: 0.011700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1441.
+Total: 1.252900 ms (FindLiveObjects: 0.090600 ms CreateObjectMapping: 0.023200 ms MarkObjects: 1.128100 ms  DeleteObjects: 0.010300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002054 seconds.
+Registered in 0.001266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1444.
+Total: 1.380300 ms (FindLiveObjects: 0.096100 ms CreateObjectMapping: 0.022000 ms MarkObjects: 1.249800 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.682705 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b657194b52f0b8023a9caadc774dee5c') in 0.002243 seconds
+  Import took 0.003504 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1447.
+Total: 1.364800 ms (FindLiveObjects: 0.088700 ms CreateObjectMapping: 0.022100 ms MarkObjects: 1.241700 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.850812 seconds.
+  path: Assets/Editor/NewBehaviourScript.cs
+  artifactKey: Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/NewBehaviourScript.cs using Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a0ea2004912457ed86a10081d5ac93') in 0.002291 seconds
+  Import took 0.003583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1451.
+Total: 1.554700 ms (FindLiveObjects: 0.096200 ms CreateObjectMapping: 0.021700 ms MarkObjects: 1.423600 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1454.
+Total: 1.590200 ms (FindLiveObjects: 0.112600 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.435000 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.611901 seconds.
+  path: Assets/Editor/NewBehaviourScript.cs
+  artifactKey: Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/NewBehaviourScript.cs using Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928b9af8aa8b7946ed13ed3d9e58bf0e') in 0.002277 seconds
+  Import took 0.003537 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1457.
+Total: 1.406100 ms (FindLiveObjects: 0.097200 ms CreateObjectMapping: 0.022300 ms MarkObjects: 1.274100 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1460.
+Total: 1.398800 ms (FindLiveObjects: 0.092900 ms CreateObjectMapping: 0.021600 ms MarkObjects: 1.272100 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.396044 seconds.
+  path: Assets/Editor/NewBehaviourScript.cs
+  artifactKey: Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/NewBehaviourScript.cs using Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d65fbb1677b5f9d58781406154ee44f') in 0.001953 seconds
+  Import took 0.002950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012149 seconds.
+  path: Assets/Editor/TransformToJSONButton.cs
+  artifactKey: Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/TransformToJSONButton.cs using Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7a6b11a55ef8d3d055aefe949cb322') in 0.000956 seconds
+  Import took 0.002372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1463.
+Total: 1.415700 ms (FindLiveObjects: 0.098400 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.283400 ms  DeleteObjects: 0.010800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1466.
+Total: 1.380100 ms (FindLiveObjects: 0.096400 ms CreateObjectMapping: 0.021300 ms MarkObjects: 1.251300 ms  DeleteObjects: 0.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.166924 seconds.
+  path: Assets/Editor/TransformToJSONButton.cs
+  artifactKey: Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/TransformToJSONButton.cs using Guid(987f18a970d8f904088bc6525107e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfbcb87e1d7f48c0b55a01d25b82e3b') in 0.002093 seconds
+  Import took 0.003192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1468.
+Total: 1.416800 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.022300 ms MarkObjects: 1.277700 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1471.
+Total: 1.423000 ms (FindLiveObjects: 0.107200 ms CreateObjectMapping: 0.021700 ms MarkObjects: 1.281900 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.454878 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9256498b6605b0310b99cc805dd2414') in 0.002018 seconds
+  Import took 0.002995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.141268 seconds.
+  path: Assets/Playground.unity
+  artifactKey: Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playground.unity using Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cbd7171c492714ae0b34b846d2cce0') in 0.036496 seconds
+  Import took 0.037799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849456 seconds.
+  path: Assets/Contents/TRANSPARENT_1
+  artifactKey: Guid(853141a1ada0d4c5797286ceb9a69f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contents/TRANSPARENT_1 using Guid(853141a1ada0d4c5797286ceb9a69f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48477291ca428d603ade891c7a0f4e0a') in 0.000727 seconds
+  Import took 0.002025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1474.
+Total: 1.414500 ms (FindLiveObjects: 0.108600 ms CreateObjectMapping: 0.026200 ms MarkObjects: 1.268700 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1477.
+Total: 1.390000 ms (FindLiveObjects: 0.094000 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.261900 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.561686 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a2e4d1cd609ae131cb233cff2cb22f') in 0.002253 seconds
+  Import took 0.003409 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1480.
+Total: 1.378200 ms (FindLiveObjects: 0.104400 ms CreateObjectMapping: 0.022200 ms MarkObjects: 1.240900 ms  DeleteObjects: 0.010200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.405264 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5743de577e38050c44be1475eac662') in 0.002064 seconds
+  Import took 0.003116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1483.
+Total: 1.427400 ms (FindLiveObjects: 0.104500 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.287500 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.517 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1486.
+Total: 1.376600 ms (FindLiveObjects: 0.097200 ms CreateObjectMapping: 0.022000 ms MarkObjects: 1.245900 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001488 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -423,17 +935,17 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.4 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1441.
-Total: 1.493400 ms (FindLiveObjects: 0.101200 ms CreateObjectMapping: 0.024000 ms MarkObjects: 1.355000 ms  DeleteObjects: 0.012400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1489.
+Total: 1.401500 ms (FindLiveObjects: 0.107900 ms CreateObjectMapping: 0.021900 ms MarkObjects: 1.260500 ms  DeleteObjects: 0.010400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002087 seconds.
+Registered in 0.001549 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -443,15 +955,559 @@ NullReferenceException: Object reference not set to an instance of an object
   at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.491 seconds
+- Completed reload, in  0.518 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1492.
+Total: 1.456600 ms (FindLiveObjects: 0.107200 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.315200 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.160188 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897e15029da976365c11ca232cb7535d') in 0.002314 seconds
+  Import took 0.003590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897e15029da976365c11ca232cb7535d') in 0.000620 seconds
+  Import took 0.001487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1495.
+Total: 1.415200 ms (FindLiveObjects: 0.097200 ms CreateObjectMapping: 0.021900 ms MarkObjects: 1.283900 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1498.
+Total: 1.441400 ms (FindLiveObjects: 0.096200 ms CreateObjectMapping: 0.025700 ms MarkObjects: 1.307200 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1501.
+Total: 1.306200 ms (FindLiveObjects: 0.102400 ms CreateObjectMapping: 0.018600 ms MarkObjects: 1.174400 ms  DeleteObjects: 0.010300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1504.
+Total: 1.429700 ms (FindLiveObjects: 0.105700 ms CreateObjectMapping: 0.023300 ms MarkObjects: 1.288100 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 606.927974 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb7a609dd35bf7ac5765ecad3765261') in 0.002331 seconds
+  Import took 0.003630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb7a609dd35bf7ac5765ecad3765261') in 0.000668 seconds
+  Import took 0.001591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1507.
+Total: 1.571400 ms (FindLiveObjects: 0.109200 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.416900 ms  DeleteObjects: 0.012100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.631881 seconds.
+  path: Assets/TransformToJSON.cs
+  artifactKey: Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TransformToJSON.cs using Guid(2747cbf07686cad41b741519f415ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd555cc66f8fe8f5a51e372d941a7ea8') in 0.002452 seconds
+  Import took 0.003707 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.520 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1510.
+Total: 1.405100 ms (FindLiveObjects: 0.101700 ms CreateObjectMapping: 0.022300 ms MarkObjects: 1.269600 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1513.
+Total: 1.426000 ms (FindLiveObjects: 0.101500 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.290000 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1516.
+Total: 1.379200 ms (FindLiveObjects: 0.099800 ms CreateObjectMapping: 0.021700 ms MarkObjects: 1.246500 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1519.
+Total: 1.662200 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.498600 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.6 MB.
+System memory in use after: 55.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1522.
+Total: 1.434400 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.023200 ms MarkObjects: 1.283700 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.520 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1525.
+Total: 1.387300 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.023000 ms MarkObjects: 1.246100 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1528.
+Total: 1.422600 ms (FindLiveObjects: 0.102900 ms CreateObjectMapping: 0.022000 ms MarkObjects: 1.285700 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.504 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.5 MB.
-System memory in use after: 55.5 MB.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1444.
-Total: 1.340100 ms (FindLiveObjects: 0.098400 ms CreateObjectMapping: 0.021800 ms MarkObjects: 1.206100 ms  DeleteObjects: 0.013100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1531.
+Total: 1.343900 ms (FindLiveObjects: 0.097700 ms CreateObjectMapping: 0.022600 ms MarkObjects: 1.213300 ms  DeleteObjects: 0.009600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1534.
+Total: 1.373900 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.022500 ms MarkObjects: 1.226200 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1537.
+Total: 1.370400 ms (FindLiveObjects: 0.102200 ms CreateObjectMapping: 0.023100 ms MarkObjects: 1.232900 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1540.
+Total: 1.359900 ms (FindLiveObjects: 0.107000 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.218400 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 1.448900 ms (FindLiveObjects: 0.107200 ms CreateObjectMapping: 0.023000 ms MarkObjects: 1.306000 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 1.271100 ms (FindLiveObjects: 0.107600 ms CreateObjectMapping: 0.024800 ms MarkObjects: 1.127200 ms  DeleteObjects: 0.010800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1549.
+Total: 1.532700 ms (FindLiveObjects: 0.112200 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.380900 ms  DeleteObjects: 0.012200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.7 MB.
+System memory in use after: 55.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1552.
+Total: 1.381600 ms (FindLiveObjects: 0.104100 ms CreateObjectMapping: 0.022100 ms MarkObjects: 1.244700 ms  DeleteObjects: 0.010100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.510 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.8 MB.
+System memory in use after: 55.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 1.376900 ms (FindLiveObjects: 0.102100 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.240500 ms  DeleteObjects: 0.011300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
