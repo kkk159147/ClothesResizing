@@ -1,0 +1,15 @@
+{
+	"name": "zepeto.asset.protector",
+	"displayName": "ZEPETO.Asset.Protector",
+	"version": "0.0.2",
+	"unity": "2020.3",
+	"description": "Block code that accesses the asset, protecting the content from things like the FBX Exporter.",
+	"keywords": [
+		"zepeto",
+		"asset",
+		"protector"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"commitId": "8ede15dc242770c363510fb6f6aaf4045743fcab"
+}

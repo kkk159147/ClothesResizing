@@ -1,0 +1,1193 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.2728; Version 2009; 64bit' Language: 'ko' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58055
+Successfully changed project path to: C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
+C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 14.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Owner/Desktop/zepeto-studio-unity-3.2.4/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001314 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 13.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1400.
+Total: 2.005200 ms (FindLiveObjects: 0.113700 ms CreateObjectMapping: 0.026900 ms MarkObjects: 1.816100 ms  DeleteObjects: 0.047600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Contents
+  artifactKey: Guid(73231107782fd4be48fb054073dd24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contents using Guid(73231107782fd4be48fb054073dd24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8759c18c560ae9edc0c23a8ada398af4') in 0.003349 seconds
+  Import took 0.004487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8b3f671dc9f0a57b867a67d4aae8de') in 0.001308 seconds
+  Import took 0.002090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.2d.sprite
+  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.001837 seconds
+  Import took 0.002630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.unity.2d.tilemap
+  artifactKey: Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap using Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4db2989a23261ac4400a439f7f11f4') in 0.001486 seconds
+  Import took 0.002338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8b3f671dc9f0a57b867a67d4aae8de') in 0.001306 seconds
+  Import took 0.002240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Playground.unity
+  artifactKey: Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playground.unity using Guid(3830ad8b7dedd41f18fc84a9efaa4a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d020374c9ee9ad1c2da7696e9312f') in 0.005659 seconds
+  Import took 0.006486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122875 seconds.
+  path: Packages/com.unity.ide.rider
+  artifactKey: Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider using Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d02623396ab86594f3405d33b9714f') in 0.001708 seconds
+  Import took 0.002959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Packages/com.unity.ide.rider
+  artifactKey: Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider using Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d02623396ab86594f3405d33b9714f') in 0.001245 seconds
+  Import took 0.002170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139553 seconds.
+  path: Packages/com.unity.scriptablebuildpipeline
+  artifactKey: Guid(ba5f7c8ab6bd4a1804a0059520896460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.scriptablebuildpipeline using Guid(ba5f7c8ab6bd4a1804a0059520896460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c0627c0b01955a059c4b11f0c4459d') in 0.001414 seconds
+  Import took 0.002496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.105640 seconds.
+  path: Packages/com.unity.test-framework
+  artifactKey: Guid(6023f2b823fc19b4e4a90875281ff117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework using Guid(6023f2b823fc19b4e4a90875281ff117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3fecfc8d873fe96244889d860a7252') in 0.001700 seconds
+  Import took 0.003064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.766436 seconds.
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169a733f15e62358392572f7d3dbae7f') in 0.001533 seconds
+  Import took 0.002786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169a733f15e62358392572f7d3dbae7f') in 0.001258 seconds
+  Import took 0.002175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159950 seconds.
+  path: Packages/com.unity.ugui
+  artifactKey: Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui using Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8eef517426cf4e5d1ef023f0f7cab') in 0.001456 seconds
+  Import took 0.002554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Packages/com.unity.ugui
+  artifactKey: Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui using Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8eef517426cf4e5d1ef023f0f7cab') in 0.001074 seconds
+  Import took 0.001753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155158 seconds.
+  path: Packages/com.unity.ide.vscode
+  artifactKey: Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode using Guid(1c61a04a5b7737c4d16673d64be4194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb59e90e7b94b511476370c7399373e') in 0.001692 seconds
+  Import took 0.003051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064644 seconds.
+  path: Packages/com.unity.ide.visualstudio
+  artifactKey: Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio using Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ec95a5506f2bdeeee79941468489e5') in 0.001678 seconds
+  Import took 0.002913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148418 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers
+  artifactKey: Guid(9f273d1aeb919930a9018672d8e70f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers using Guid(9f273d1aeb919930a9018672d8e70f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c65148138327169e58be8f5e5528693') in 0.001555 seconds
+  Import took 0.002763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers
+  artifactKey: Guid(9f273d1aeb919930a9018672d8e70f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers using Guid(9f273d1aeb919930a9018672d8e70f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c65148138327169e58be8f5e5528693') in 0.001282 seconds
+  Import took 0.002090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129017 seconds.
+  path: Packages/zepeto.asset
+  artifactKey: Guid(c2089aa7ef1750f5cdd65bdd45aeb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset using Guid(c2089aa7ef1750f5cdd65bdd45aeb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209ab2413ca2377cef9f53d392487a0f') in 0.001462 seconds
+  Import took 0.002652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Packages/zepeto.asset
+  artifactKey: Guid(c2089aa7ef1750f5cdd65bdd45aeb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset using Guid(c2089aa7ef1750f5cdd65bdd45aeb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209ab2413ca2377cef9f53d392487a0f') in 0.001236 seconds
+  Import took 0.002050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967421 seconds.
+  path: Packages/zepeto.asset/plugins
+  artifactKey: Guid(0f78e1137761819304ecdd88561a7f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset/plugins using Guid(0f78e1137761819304ecdd88561a7f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82aa449a66690967d0fb03fd79b280b') in 0.001634 seconds
+  Import took 0.002818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161182 seconds.
+  path: Packages/zepeto.asset/package.json
+  artifactKey: Guid(59e30da3e175945728f05805a4a1dbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset/package.json using Guid(59e30da3e175945728f05805a4a1dbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887534611ee5f661c20a81efc1af0559') in 0.012973 seconds
+  Import took 0.014280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009352 seconds.
+  path: Packages/zepeto.asset/package.json
+  artifactKey: Guid(59e30da3e175945728f05805a4a1dbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset/package.json using Guid(59e30da3e175945728f05805a4a1dbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887534611ee5f661c20a81efc1af0559') in 0.001618 seconds
+  Import took 0.002769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543898 seconds.
+  path: Packages/zepeto.asset.protector
+  artifactKey: Guid(53987c7f4c2330bfe2701bc64a5f85a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.asset.protector using Guid(53987c7f4c2330bfe2701bc64a5f85a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b8322a20c69da02bf7f9d376f9e13') in 0.001679 seconds
+  Import took 0.003049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140879 seconds.
+  path: Packages/zepeto.character
+  artifactKey: Guid(64ca7f3bdfd2af7198cd38c2e08b2fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character using Guid(64ca7f3bdfd2af7198cd38c2e08b2fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab3b6c36be1de2428750e6dd1a2e413') in 0.001727 seconds
+  Import took 0.003038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629668 seconds.
+  path: Packages/zepeto.character/plugins
+  artifactKey: Guid(37bb7a704d3484fe8ab99b81f25df9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/plugins using Guid(37bb7a704d3484fe8ab99b81f25df9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c65c93ece93fae46ad3b3efe7af8b13') in 0.001311 seconds
+  Import took 0.002582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.158587 seconds.
+  path: Packages/zepeto.character/resources
+  artifactKey: Guid(3e09934eb7d8c47108dad7a6bcc57b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources using Guid(3e09934eb7d8c47108dad7a6bcc57b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ebee4b46a62bb6aaeb9239fe18e78') in 0.001718 seconds
+  Import took 0.003041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/zepeto.character/resources
+  artifactKey: Guid(3e09934eb7d8c47108dad7a6bcc57b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources using Guid(3e09934eb7d8c47108dad7a6bcc57b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ebee4b46a62bb6aaeb9239fe18e78') in 0.001349 seconds
+  Import took 0.002361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.026889 seconds.
+  path: Packages/zepeto.character/StreamingAssets
+  artifactKey: Guid(e40fbe350224543dbac2c05f100a3bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/StreamingAssets using Guid(e40fbe350224543dbac2c05f100a3bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732e9718d30fe8bd57eea0d1381f20bf') in 0.001765 seconds
+  Import took 0.003142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/zepeto.character/StreamingAssets
+  artifactKey: Guid(e40fbe350224543dbac2c05f100a3bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/StreamingAssets using Guid(e40fbe350224543dbac2c05f100a3bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732e9718d30fe8bd57eea0d1381f20bf') in 0.001182 seconds
+  Import took 0.002271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801910 seconds.
+  path: Packages/zepeto.character/resources/zepeto
+  artifactKey: Guid(36a379e95a7b44a0689e3e885ce4093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto using Guid(36a379e95a7b44a0689e3e885ce4093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190ca70e35eed3d52222cc42a3705454') in 0.001494 seconds
+  Import took 0.002550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326919 seconds.
+  path: Packages/zepeto.character/resources/zepeto/resources-internal
+  artifactKey: Guid(30074ecc6946c4a92ac911f769d7bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/resources-internal using Guid(30074ecc6946c4a92ac911f769d7bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9372fd1064b3a4e112bab080a7dfcc') in 0.001610 seconds
+  Import took 0.003023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Packages/zepeto.character/resources/zepeto/resources-internal
+  artifactKey: Guid(30074ecc6946c4a92ac911f769d7bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/resources-internal using Guid(30074ecc6946c4a92ac911f769d7bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9372fd1064b3a4e112bab080a7dfcc') in 0.001327 seconds
+  Import took 0.002272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.510534 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders
+  artifactKey: Guid(de36d79feb5204b9988a9ffda7556a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders using Guid(de36d79feb5204b9988a9ffda7556a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c32c7508da31ffe82dc152cbd6592ba') in 0.001843 seconds
+  Import took 0.003331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders
+  artifactKey: Guid(de36d79feb5204b9988a9ffda7556a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders using Guid(de36d79feb5204b9988a9ffda7556a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c32c7508da31ffe82dc152cbd6592ba') in 0.001330 seconds
+  Import took 0.002325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110825 seconds.
+  path: Packages/zepeto.character/resources/zepeto/body_kdtree.bytes
+  artifactKey: Guid(871bcfcbbc24c446f888b74e439c064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/body_kdtree.bytes using Guid(871bcfcbbc24c446f888b74e439c064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c543e4b136cfdf79f9b1352e31fdbfbb') in 0.003668 seconds
+  Import took 0.004896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Packages/zepeto.character/resources/zepeto/body_kdtree.bytes
+  artifactKey: Guid(871bcfcbbc24c446f888b74e439c064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/body_kdtree.bytes using Guid(871bcfcbbc24c446f888b74e439c064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c543e4b136cfdf79f9b1352e31fdbfbb') in 0.001649 seconds
+  Import took 0.002635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144013 seconds.
+  path: Packages/zepeto.character/resources/zepeto/BTM_00.prefab
+  artifactKey: Guid(4588ec84a97fe4f4db5cf88cd6c2a6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/BTM_00.prefab using Guid(4588ec84a97fe4f4db5cf88cd6c2a6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c009b2246b1d76d8153653f4164e4a') in 0.334821 seconds
+  Import took 0.336361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/zepeto.character/resources/zepeto/default-scene.txt
+  artifactKey: Guid(0f98cadbca6b445af98aeea9ac24b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/default-scene.txt using Guid(0f98cadbca6b445af98aeea9ac24b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e1629e0d49ab090542fb7f0d79568') in 0.003413 seconds
+  Import took 0.004402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Packages/zepeto.character/resources/zepeto/Hair_diffuse.png
+  artifactKey: Guid(94f64311b5ce84bb19f472d84c4f2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/Hair_diffuse.png using Guid(94f64311b5ce84bb19f472d84c4f2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2f92658d8bfe2ca5ad390c6bef8ba4') in 0.007787 seconds
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Packages/zepeto.character/resources/zepeto/Hair_diffuse.png
+  artifactKey: Guid(94f64311b5ce84bb19f472d84c4f2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/Hair_diffuse.png using Guid(94f64311b5ce84bb19f472d84c4f2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2f92658d8bfe2ca5ad390c6bef8ba4') in 0.003784 seconds
+  Import took 0.004667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243917 seconds.
+  path: Packages/zepeto.character/resources/zepeto/Hair_normal.png
+  artifactKey: Guid(738ab8f89f58347cdb58bd7daee4b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/Hair_normal.png using Guid(738ab8f89f58347cdb58bd7daee4b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce11b9683184474c843bb4c83f50828') in 0.005749 seconds
+  Import took 0.007000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001536 seconds.
+  path: Packages/zepeto.character/resources/zepeto/Hair_normal.png
+  artifactKey: Guid(738ab8f89f58347cdb58bd7daee4b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/Hair_normal.png using Guid(738ab8f89f58347cdb58bd7daee4b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce11b9683184474c843bb4c83f50828') in 0.004209 seconds
+  Import took 0.005109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127987 seconds.
+  path: Packages/zepeto.character/resources/zepeto/Hair_spec_ssm.png
+  artifactKey: Guid(ca0f3dbdb163e4ed0a13f8bc905cc802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/Hair_spec_ssm.png using Guid(ca0f3dbdb163e4ed0a13f8bc905cc802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060e31564a8707adaa0eafce37bf002d') in 0.005238 seconds
+  Import took 0.006510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284817 seconds.
+  path: Packages/zepeto.character/resources/zepeto/TOP_00.prefab
+  artifactKey: Guid(65d154b8b5520427fb29d345891635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/TOP_00.prefab using Guid(65d154b8b5520427fb29d345891635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098ab39bcc69be380566ab1276f89dae') in 0.017731 seconds
+  Import took 0.019300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001650 seconds.
+  path: Packages/zepeto.character/resources/zepeto/TOP_00.prefab
+  artifactKey: Guid(65d154b8b5520427fb29d345891635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/TOP_00.prefab using Guid(65d154b8b5520427fb29d345891635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098ab39bcc69be380566ab1276f89dae') in 0.019048 seconds
+  Import took 0.020330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.812766 seconds.
+  path: Packages/zepeto.character/resources/zepeto/ZepetoBaseModel.prefab
+  artifactKey: Guid(335bd75208949461bbb789d261c756a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/ZepetoBaseModel.prefab using Guid(335bd75208949461bbb789d261c756a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e30e2cb271a7cbea799a61772a9813') in 0.063465 seconds
+  Import took 0.065140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838418 seconds.
+  path: Packages/zepeto.character/resources/zepeto/ZepetoDefaultLight.prefab
+  artifactKey: Guid(bd2748865ddd241c2930897e40ceabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/ZepetoDefaultLight.prefab using Guid(bd2748865ddd241c2930897e40ceabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe5688526a5184d5753cfdce7245df9') in 0.002577 seconds
+  Import took 0.003701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Packages/zepeto.character/resources/zepeto/ZepetoDefaultLight.prefab
+  artifactKey: Guid(bd2748865ddd241c2930897e40ceabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/ZepetoDefaultLight.prefab using Guid(bd2748865ddd241c2930897e40ceabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe5688526a5184d5753cfdce7245df9') in 0.001673 seconds
+  Import took 0.002375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.849744 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/BlendModes.cginc
+  artifactKey: Guid(8c9eda5497d794fb2abeaa61990bd1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/BlendModes.cginc using Guid(8c9eda5497d794fb2abeaa61990bd1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261b83fa7a6c72c643feb679af3fbbc1') in 0.002783 seconds
+  Import took 0.004085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.706136 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/BodyMask.shader
+  artifactKey: Guid(5401c28a2c9cc4902a6729bfffbff9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/BodyMask.shader using Guid(5401c28a2c9cc4902a6729bfffbff9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542463da01782bdaeee658c2292c4872') in 0.002961 seconds
+  Import took 0.004208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/BodyMask.shader
+  artifactKey: Guid(5401c28a2c9cc4902a6729bfffbff9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/BodyMask.shader using Guid(5401c28a2c9cc4902a6729bfffbff9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542463da01782bdaeee658c2292c4872') in 0.001371 seconds
+  Import took 0.002207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133971 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/Room.shader
+  artifactKey: Guid(24e9dbc4f83db4051a2bc935c44904d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/Room.shader using Guid(24e9dbc4f83db4051a2bc935c44904d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d6ac7fef26e2caee978b4d94c886b7') in 0.001724 seconds
+  Import took 0.002979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/Room.shader
+  artifactKey: Guid(24e9dbc4f83db4051a2bc935c44904d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/Room.shader using Guid(24e9dbc4f83db4051a2bc935c44904d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d6ac7fef26e2caee978b4d94c886b7') in 0.001471 seconds
+  Import took 0.002616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.128056 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/Sticker.shader
+  artifactKey: Guid(bc05b7e144a9d41099080a9d0dc71b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/Sticker.shader using Guid(bc05b7e144a9d41099080a9d0dc71b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612d1a2eaddd9038d61b52870c6f3db') in 0.001999 seconds
+  Import took 0.003412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722439 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TextureWithColor.shader
+  artifactKey: Guid(21b1722bab8414786bb8741dd37cb471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TextureWithColor.shader using Guid(21b1722bab8414786bb8741dd37cb471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7885155e075ff2a217e13d9edd4709ef') in 0.001893 seconds
+  Import took 0.003285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.467521 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TransparentShadowReceiver.shader
+  artifactKey: Guid(fc31f5dd8d1034a18b853fd5d24f3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TransparentShadowReceiver.shader using Guid(fc31f5dd8d1034a18b853fd5d24f3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d84a029429e6bdf7ebacdf605893ba') in 0.002010 seconds
+  Import took 0.003429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741706 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TransparentSoftEdgeWithColor.shader
+  artifactKey: Guid(b5e8219e3705848ddbda0375f158c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TransparentSoftEdgeWithColor.shader using Guid(b5e8219e3705848ddbda0375f158c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75359db3b78b882c185ee4df40033bec') in 0.001919 seconds
+  Import took 0.003182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557632 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureMixer.shader
+  artifactKey: Guid(1ecdac88326c148178b65278e0952702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureMixer.shader using Guid(1ecdac88326c148178b65278e0952702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b5fd2195f92e87fd69ffe80018f51') in 0.001837 seconds
+  Import took 0.002979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureMixer.shader
+  artifactKey: Guid(1ecdac88326c148178b65278e0952702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureMixer.shader using Guid(1ecdac88326c148178b65278e0952702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b5fd2195f92e87fd69ffe80018f51') in 0.001484 seconds
+  Import took 0.002354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444841 seconds.
+  path: Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureWithColor.shader
+  artifactKey: Guid(560634f8b362141cc985232130a2ddb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/resources/zepeto/shaders/TransparentTextureWithColor.shader using Guid(560634f8b362141cc985232130a2ddb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c08797c6c75a465046dd839335fb3f2') in 0.001973 seconds
+  Import took 0.003388 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1453.
+Total: 1.367400 ms (FindLiveObjects: 0.096700 ms CreateObjectMapping: 0.021500 ms MarkObjects: 1.230600 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1456.
+Total: 1.485300 ms (FindLiveObjects: 0.113900 ms CreateObjectMapping: 0.021400 ms MarkObjects: 1.339200 ms  DeleteObjects: 0.010200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.497 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1459.
+Total: 1.517700 ms (FindLiveObjects: 0.109400 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.367400 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1462.
+Total: 1.425100 ms (FindLiveObjects: 0.112100 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.273800 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1451.610486 seconds.
+  path: Assets/Contents/TRANSPARENT_1/TRANSPARENT_1.prefab
+  artifactKey: Guid(27e576fa219184442b3ac41d5e09fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contents/TRANSPARENT_1/TRANSPARENT_1.prefab using Guid(27e576fa219184442b3ac41d5e09fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200882841a3174691b3b81f9feb65a90') in 0.085694 seconds
+  Import took 0.087243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.004282 seconds.
+  path: Packages/zepeto.studio/resources/zepeto-studio_icon.png
+  artifactKey: Guid(18589caf878b448c38e1c266afa9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.studio/resources/zepeto-studio_icon.png using Guid(18589caf878b448c38e1c266afa9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06851bd7cebad0eccdada2816fdb03') in 0.006772 seconds
+  Import took 0.008143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024020 seconds.
+  path: Packages/zepeto.studio/resources/zepeto-studio_icon.png
+  artifactKey: Guid(18589caf878b448c38e1c266afa9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.studio/resources/zepeto-studio_icon.png using Guid(18589caf878b448c38e1c266afa9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06851bd7cebad0eccdada2816fdb03') in 0.005986 seconds
+  Import took 0.007555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222910 seconds.
+  path: Packages/zepeto.character/plugins/ZEPETO.dll
+  artifactKey: Guid(892003771ffd6489a92e1e162c82b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/plugins/ZEPETO.dll using Guid(892003771ffd6489a92e1e162c82b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814f1e3ba88b308ec9a7a65c6f192293') in 0.003223 seconds
+  Import took 0.004546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027244 seconds.
+  path: Packages/zepeto.character/plugins/ZEPETO.dll
+  artifactKey: Guid(892003771ffd6489a92e1e162c82b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.character/plugins/ZEPETO.dll using Guid(892003771ffd6489a92e1e162c82b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814f1e3ba88b308ec9a7a65c6f192293') in 0.001445 seconds
+  Import took 0.002481 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1468.
+Total: 1.450600 ms (FindLiveObjects: 0.111900 ms CreateObjectMapping: 0.022700 ms MarkObjects: 1.305300 ms  DeleteObjects: 0.010000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.528 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1472.
+Total: 1.419700 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.022700 ms MarkObjects: 1.279800 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1475.
+Total: 1.355800 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.025400 ms MarkObjects: 1.214000 ms  DeleteObjects: 0.010000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1478.
+Total: 1.487900 ms (FindLiveObjects: 0.108500 ms CreateObjectMapping: 0.026100 ms MarkObjects: 1.339600 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.501 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1481.
+Total: 1.378300 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.021200 ms MarkObjects: 1.244300 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1484.
+Total: 1.375800 ms (FindLiveObjects: 0.104200 ms CreateObjectMapping: 0.022700 ms MarkObjects: 1.236800 ms  DeleteObjects: 0.011300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1487.
+Total: 1.502300 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.358200 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1490.
+Total: 1.644200 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.056400 ms MarkObjects: 1.384700 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.495 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1493.
+Total: 1.482800 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.022900 ms MarkObjects: 1.342200 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1496.
+Total: 1.599200 ms (FindLiveObjects: 0.113500 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.444900 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1499.
+Total: 1.511200 ms (FindLiveObjects: 0.098900 ms CreateObjectMapping: 0.022400 ms MarkObjects: 1.379000 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1502.
+Total: 1.516600 ms (FindLiveObjects: 0.124400 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.352800 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1505.
+Total: 1.484000 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.023600 ms MarkObjects: 1.331800 ms  DeleteObjects: 0.010300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1508.
+Total: 1.533500 ms (FindLiveObjects: 0.114800 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.379800 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1511.
+Total: 1.437000 ms (FindLiveObjects: 0.113100 ms CreateObjectMapping: 0.025300 ms MarkObjects: 1.287500 ms  DeleteObjects: 0.010400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1514.
+Total: 1.470600 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.022500 ms MarkObjects: 1.316400 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1517.
+Total: 1.635500 ms (FindLiveObjects: 0.113300 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.481800 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1520.
+Total: 1.396800 ms (FindLiveObjects: 0.114100 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.243700 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1523.
+Total: 1.504000 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.026100 ms MarkObjects: 1.347400 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at ZepetoStudioLoader+ZepetoStudioMetadata.get_Metadata () [0x00033] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+  at ZepetoStudioLoader+ZepetoStudioMetadata.Init () [0x00059] in <68dc00f6a4a94985ab4559aab5d31d88>:0 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1526.
+Total: 1.471200 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.025800 ms MarkObjects: 1.311500 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4508.763180 seconds.
+  path: Packages/zepeto.studio/Deformations/DEFORM_1.json
+  artifactKey: Guid(8432731cd433e4b9aa846307bed77450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.studio/Deformations/DEFORM_1.json using Guid(8432731cd433e4b9aa846307bed77450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2188613776651871e6ca4fa4206f05f3') in 0.032620 seconds
+  Import took 0.034007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.829014 seconds.
+  path: Packages/zepeto.studio/Deformations/DEFORM_1.json
+  artifactKey: Guid(8432731cd433e4b9aa846307bed77450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/zepeto.studio/Deformations/DEFORM_1.json using Guid(8432731cd433e4b9aa846307bed77450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2188613776651871e6ca4fa4206f05f3') in 0.001766 seconds
+  Import took 0.003114 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,24 @@
+{
+	"name": "zepeto.studio",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.Studio",
+	"version": "3.2.4",
+	"unity": "2019.4",
+	"description": "ZEPETO Studio SDK",
+	"keywords": [
+		"zepeto"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"dependencies": {
+		"zepeto.asset": "1.0.12",
+		"zepeto.asset.protector": "0.0.2",
+		"zepeto.character": "3.1.15"
+	},
+	"commitId": "4cd5508190cd4dd5ca37b2467ad3fd2c3c7db36a"
+}
