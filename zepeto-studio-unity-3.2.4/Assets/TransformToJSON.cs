@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.IO;
 using LitJson;
-using UnityEditor;
 
 public class TransformToJSON : MonoBehaviour 
 {
