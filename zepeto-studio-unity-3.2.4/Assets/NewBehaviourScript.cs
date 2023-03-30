@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+#if UNITY_EDITOR
 public class NewBehaviourScript : EditorWindow
 {
     public Transform topTr;
@@ -80,7 +81,8 @@ public class NewBehaviourScript : EditorWindow
     //        }
     //    }
     //}
-    
+
+
     public static void OpenWindow()
     {
         var window = GetWindow<NewBehaviourScript>();
@@ -112,4 +114,6 @@ public class NewBehaviourScript : EditorWindow
         }
     }
 
+
 }
+#endif
